@@ -1,0 +1,106 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "D3gHMIC3APfKGCR2sfgn7"
+uri = "file://artifacts/revenue-intelligence-inbox/README.md"
+type = "text"
+title = "Revenue Intelligence Inbox — README"
+description = "Short setup and workflow guide; notes that demo data and edits stay in the current browser."
+logical_id = "a25f3159-07cf-4d7f-8436-9fc665e5dbc4"
+content_hash = "sha256:0a0e616b36bf0c766220d5a31b2e762db6184d9ce85fa098d954407e040a56ac"
+size = 1473
+mtime_ms = 1792735367732
+storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:12d12b65-6e78-4998-b25a-bfed3bdb2600/a25f3159-07cf-4d7f-8436-9fc665e5dbc4/e2e99197-6fc1-4d94-9cee-5d2a9aa0fc3f"
+storage_version_token = "1792737041466925"
+content_type = "text/markdown"
+
+[[outputs]]
+id = "U7mkn_FWdKM31UXoEHn9l"
+uri = "file://artifacts/revenue-intelligence-inbox/public/exports/demo-calls.csv"
+type = "table"
+title = "Synthetic call export — CSV"
+description = "Eight fictional conversation rows for the Oct 15–23, 2026 demo dataset."
+logical_id = "a93b485e-19ab-4f83-9415-ddaf24590781"
+content_hash = "sha256:c876ffffadf4a4a437041e43c02c4a7060d9955db11cd4e7b0d76415ce79a488"
+size = 3057
+mtime_ms = 1792735373060
+storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:12d12b65-6e78-4998-b25a-bfed3bdb2600/a93b485e-19ab-4f83-9415-ddaf24590781/bd9d3957-8aeb-4726-97ea-72cb7e370cc8"
+storage_version_token = "1792737042868531"
+content_type = "text/csv"
+
+[[outputs]]
+id = "d8ybvMxdlVWwQpfl4U_Gb"
+uri = "file://artifacts/revenue-intelligence-inbox/public/exports/demo-calls.json"
+type = "unspecified"
+title = "Synthetic call export — JSON"
+description = "Structured fictional conversations with route rationale and timestamped source evidence."
+logical_id = "22f1148a-ef8f-4127-9171-85e5e3000749"
+content_hash = "sha256:62c4abd83f8fe9ddf9c7efb599b48f6c5aeff6f86c2adf514c48f0ac5adffd73"
+size = 6057
+mtime_ms = 1792735385223
+storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:12d12b65-6e78-4998-b25a-bfed3bdb2600/22f1148a-ef8f-4127-9171-85e5e3000749/9cdd82d2-b8a9-4eac-8dc2-3d5c3a71f676"
+storage_version_token = "1792737044148474"
+content_type = "application/octet-stream"
+
+[[outputs]]
+id = "Agn7TunDaxU-l0DvLzn_T"
+uri = "file://artifacts/revenue-intelligence-inbox/public/exports/manifest.json"
+type = "unspecified"
+title = "Export manifest — JSON"
+description = "Dataset provenance, file inventory, three evidence-linked findings, and the considered/rejected routing decision."
+logical_id = "5e55807a-764d-45b2-915c-cf859adae4bb"
+content_hash = "sha256:1bac6664b2828da2e704ed148585718db82432b529bb20b5e052e60ca8b23230"
+size = 2591
+mtime_ms = 1792735415930
+storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:12d12b65-6e78-4998-b25a-bfed3bdb2600/5e55807a-764d-45b2-915c-cf859adae4bb/e1c3729b-863d-4816-8455-8a681b176a9d"
+storage_version_token = "1792737045452270"
+content_type = "application/octet-stream"
+
+[[outputs]]
+id = "YXyislQfXW4MHwEjuGW-w"
+uri = "file://artifacts/revenue-intelligence-inbox/public/exports/repeat-import-test.csv"
+type = "table"
+title = "Repeat import test row — CSV"
+description = "Sample row for checking that importing the same stable source ID twice does not create a duplicate."
+logical_id = "82f583c7-8a30-441a-bd35-4473d5f28cf3"
+content_hash = "sha256:f1d9d6d02dab566573e27ed6c9e01aadf59b97d57e66a4a27635ad58705fd37a"
+size = 429
+mtime_ms = 1792735413593
+storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:12d12b65-6e78-4998-b25a-bfed3bdb2600/82f583c7-8a30-441a-bd35-4473d5f28cf3/5983b78b-9130-4453-9422-98d160cab5f2"
+storage_version_token = "1792737046785995"
+content_type = "text/csv"
+
+[[outputs]]
+id = "QCCHiRFPAL0oBETM99X3d"
+uri = "file://artifacts/revenue-intelligence-inbox/public/exports/update-import-test.csv"
+type = "table"
+title = "Source update test row — CSV"
+description = "Updated version of the same test ID for checking source refresh and retained manager corrections."
+logical_id = "f08de422-2343-4e6a-b961-737d69336b38"
+content_hash = "sha256:e558bdae987127f21156f28ee335b9c87eae02d09301e4baadee1b95d8dbef28"
+size = 468
+mtime_ms = 1792735414578
+storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:12d12b65-6e78-4998-b25a-bfed3bdb2600/f08de422-2343-4e6a-b961-737d69336b38/7cd1bb80-e380-442a-bb4c-8ee5f7a4f0a2"
+storage_version_token = "1792737048048555"
+content_type = "text/csv"
+
+[[outputs]]
+id = "bFMneaRowpH2-MBsKjzdz"
+uri = "file://generated-artifacts/revenue-intelligence-inbox-walkthrough.mp4"
+type = "video"
+title = "Revenue Intelligence Inbox — 3-minute walkthrough"
+description = "Three-minute screen recording with generated text-to-speech narration. It shows the dashboard, Northstar evidence, Acme routing, a manual correction, repeat-import and source-update results, and a filtered JSON export with manifest."
+logical_id = "74cf8ddf-9c59-45d0-b305-750a57289455"
+content_hash = "sha256:808b2b4ea423f1b440f8b753b6aae469d2dc0c554d8f8d0371ad8b2829e358b4"
+size = 5469418
+mtime_ms = 1792736930626
+storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:12d12b65-6e78-4998-b25a-bfed3bdb2600/74cf8ddf-9c59-45d0-b305-750a57289455/4c5d5d91-e966-4513-8ebf-177d388ffac9"
+storage_version_token = "1792737049426091"
+content_type = "video/mp4"
+
+[[outputs]]
+id = "BzkCdKbXFlkhV-2GDcxfw"
+uri = "file://.local/outputs/Revenue-Intelligence-Inbox---Findings.pptx"
+type = "slides"
+title = "Revenue Intelligence Inbox — Findings.pptx"
